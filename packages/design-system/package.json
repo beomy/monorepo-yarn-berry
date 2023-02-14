@@ -1,0 +1,26 @@
+{
+  "name": "@monorepo/design-system",
+  "version": "0.0.0",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "echo": "echo this is design-system"
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "@emotion/react": "11.x",
+    "@emotion/styled": "11.x",
+    "react": "18.x",
+    "react-dom": "18.x"
+  }
+}

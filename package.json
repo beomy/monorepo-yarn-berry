@@ -1,0 +1,14 @@
+{
+  "name": "monorepo-yarn-berry",
+  "packageManager": "yarn@3.4.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "ds": "yarn workspace @monorepo/design-system",
+    "service": "yarn workspace @monorepo/service"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
